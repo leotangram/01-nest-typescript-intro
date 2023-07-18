@@ -1,6 +1,8 @@
 import './style.css'
-import { bulbasaur } from './bases/02-objects.ts'
+import { charmander } from './bases/03-classes.ts'
+
+charmander
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <h1>Hello ${bulbasaur.name}</h1>
+  <h1>Hello ${charmander.name} ${charmander.id}</h1>
 `
