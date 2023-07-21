@@ -1,5 +1,5 @@
 import './style.css'
-import { charmander } from './bases/03-classes.ts'
+import { charmander } from './bases/04-injection'
 
 charmander
 
